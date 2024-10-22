@@ -1,0 +1,24 @@
+/* src/Weather.css */
+
+.weather-container {
+    text-align: center;
+    margin: 20px;
+}
+
+.weather-cards {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    flex-wrap: wrap; /* Allow cards to wrap on smaller screens */
+}
+
+.weather-card {
+    border: 1px solid #ccc;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin: 10px; /* Space between cards */
+    flex: 1 1 200px; /* Allow cards to grow and shrink */
+    min-width: 150px; /* Minimum width for cards */
+    
+}
